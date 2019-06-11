@@ -52,6 +52,9 @@
                             @endif
                         @else
                             <li class="nav-item">
+                                <a class="nav-link" href="{{ route('home') }}">{{ __('menu.add-transaction') }}</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="{{ route('report-week') }}">{{ __('menu.report-week') }}</a>
                             </li>
                             <li class="nav-item">
